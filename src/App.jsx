@@ -12,43 +12,6 @@ function BatmanInvitation() {
         ></div>
       </div>
 
-      {/* Bat-Signal no topo com animação */}
-      {/* <div className="w-full flex justify-center mb-4 relative z-10">
-        <div className="absolute top-0 left-0 right-0 flex justify-center">
-          <div className="bg-yellow-500 h-32 w-1 rounded-full opacity-20 blur-md animate-pulse"></div>
-        </div>
-        <svg
-          viewBox="0 0 100 60"
-          className="w-40 h-40 drop-shadow-lg filter drop-shadow-yellow-500"
-        >
-          <circle cx="50" cy="30" r="25" fill="#FFD700" />
-          <circle
-            cx="50"
-            cy="30"
-            r="27"
-            fill="none"
-            stroke="#FFD700"
-            strokeWidth="1"
-            className="animate-pulse"
-          />
-          <circle
-            cx="50"
-            cy="30"
-            r="30"
-            fill="none"
-            stroke="#FFD700"
-            strokeWidth="0.5"
-            className="animate-pulse"
-          />
-          <path d="M50,5 L50,55 M25,30 L75,30" stroke="black" strokeWidth="2" />
-          <path
-            d="M38,20 C38,20 43,12 50,12 C57,12 62,20 62,20 L65,28 L62,36 C62,36 57,44 50,44 C43,44 38,36 38,36 L35,28 L38,20 Z"
-            fill="black"
-          />
-          <path d="M50,24 L46,34 L54,34 L50,24 Z" fill="#FFD700" />
-        </svg>
-      </div> */}
-
       {/* Card principal */}
       <div className="max-w-3xl w-full bg-gradient-to-b from-gray-900 to-gray-800 border-4 border-yellow-500 rounded-lg shadow-2xl overflow-hidden relative z-10">
         {/* Decoração de morcegos */}
@@ -105,7 +68,7 @@ function BatmanInvitation() {
               <div className="absolute inset-0 bg-yellow-500 blur-md opacity-20 rounded-full transform scale-110"></div>
               <div className="w-56 h-56 rounded-full bg-gray-800 border-4 border-yellow-500 overflow-hidden mb-4 flex items-center justify-center shadow-lg relative z-10">
                 <img
-                  src="../public/Gab.jpg"
+                  src="/Gab.jpg"
                   alt="Aniversariante"
                   className="w-full h-full object-cover"
                 />
